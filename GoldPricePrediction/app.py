@@ -176,7 +176,5 @@ with col2:
 st.markdown("""
 <footer>
 Developed ❤️ by <b>Govind Narenders</b><br>
-<a href='https://github.com/itzdineshx/Gold-price-prediction' target='_blank' style='color:gold;'>GitHub</a> |
-<a href='https://www.linkedin.com/in/dinesh-x/' target='_blank' style='color:gold;'>LinkedIn</a>
 </footer>
 """, unsafe_allow_html=True)
