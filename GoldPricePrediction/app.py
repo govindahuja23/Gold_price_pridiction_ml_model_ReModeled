@@ -176,7 +176,7 @@ with col2:
             st.error(msg)
 
     st.image(gold_bar_img, width=250)
-    st.markdown('<div class="gold-box">💵 Estimated Gold Price Updates Below</div>', unsafe_allow_html=True)
+    st.markdown('<div class="gold-box">💵 Estimated Gold Price Updates Above</div>', unsafe_allow_html=True)
 
 # ===================== FOOTER =====================
 st.markdown("""
