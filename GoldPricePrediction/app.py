@@ -147,7 +147,7 @@ st.markdown("---")
 st.markdown("<h2>🎯 Gold Price Prediction</h2>", unsafe_allow_html=True)
 
 gold_side_img = "https://tse1.mm.bing.net/th/id/OIP.VJmQFqe-uy_tUfzO74fXGwHaE_?cb=12&rs=1&pid=ImgDetMain&o=7&rm=3"
-gold_bar_img = "https://media.istockphoto.com/id/1206809736/photo/pile-of-gold-bars.jpg?s=612x612&w=0&k=20&c=LaCbpj3_6mSKhbTd_CsUeFwqleXJFCBv9AypmbUPAvs="
+gold_bar_img = "https://i.ytimg.com/vi/KQcbjphd7sw/maxresdefault.jpg"
 
 col1, col2 = st.columns([1, 2])
 
