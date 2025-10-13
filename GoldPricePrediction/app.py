@@ -5,12 +5,18 @@ import joblib
 import pandas as pd
 
 # ===================== MODEL SETUP =====================
+import os
+
+# Get the absolute path of the current script
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
 model_paths = {
-    "Linear Regression": "Regression_model.pkl",
-    "Ridge Regression": "best_ridge_model.pkl",
-    "Random Forest": "best_random_forest_model.pkl"
+    "Linear Regression": os.path.join(BASE_DIR, "Regression_model.pkl"),
+    "Ridge Regression": os.path.join(BASE_DIR, "best_ridge_model.pkl"),
+    "Random Forest": os.path.join(BASE_DIR, "best_random_forest_model.pkl")
 }
-scaler_path = "scaler.pkl"
+scaler_path = os.path.join(BASE_DIR, "scaler.pkl")
+
 
 # ===================== PREDICTION FUNCTION =====================
 def predict_gold_rate(usd_inr_value, model_choice):
